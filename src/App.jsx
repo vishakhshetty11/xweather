@@ -36,7 +36,7 @@ function App() {
         <button onClick={handleSubmit} style={{ backgroundColor: "green" }}>Search</button>
       </div>
       {loading ?
-        <p>Loading data…</p>
+        <p>Loading data...</p>
         :
         data.length > 0 &&
         <div className='weather-cards' style={{ marginTop: "10px", display: "flex", gap: "10px", justifyContent: "center" }}>
